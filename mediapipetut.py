@@ -1,6 +1,6 @@
 import cv2
 import mediapipe as mp
-import mediapipe.python.solutions.drawing_utils
+
 
 cam=cv2.VideoCapture(0)
 mhands=mp.solutions.hands #"hands" modülüne erişim sağlamak ve el tespiti yapmak için bir nesne oluşturur.
